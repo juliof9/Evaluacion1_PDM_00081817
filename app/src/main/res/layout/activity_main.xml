@@ -11,86 +11,87 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contador de Productos"
-        android:textSize="25dp"/>
+        android:textSize="25sp"
+        android:padding="10dp"/>
 
     <GridLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:columnCount="3"
         android:padding="15dp"
         android:useDefaultMargins="true">
 
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/boton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:text="Producto 1"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/boton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:text="Producto 2"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn3"
+            android:id="@+id/boton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
             android:text="Producto 3"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn4"
+            android:id="@+id/boton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="#FFC800FF"
             android:text="Producto 4"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn5"
+            android:id="@+id/boton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="#FFFF9800"
             android:text="Producto 5"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn6"
+            android:id="@+id/boton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
+            android:background="#8b164f"
             android:text="Producto 6"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn7"
+            android:id="@+id/boton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:text="Producto 7"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn8"
+            android:id="@+id/boton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:text="Producto 8"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
         <Button
-            android:id="@+id/btn9"
+            android:id="@+id/boton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="#FFF7FF00"
             android:text="Producto 9"
-            android:textSize="9dp" />
+            android:textSize="11sp" />
 
     </GridLayout>
 
@@ -126,7 +127,7 @@
             android:hint="Ingrese el correo aqui"/>
 
         <Button
-            android:id="@+id/btn10"
+            android:id="@+id/btn_send"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Enviar"/>
